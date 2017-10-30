@@ -22,7 +22,7 @@ main: #简历主要内容，
 - type: introduction
   name: "简介"
   content:
-  - title: 政治面貌
+  - title:政治面貌
     items: #itmems 可以小块的方式显示
     - 中共正式党员
   - title:籍贯
