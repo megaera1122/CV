@@ -1,14 +1,14 @@
 ---
 layout: markdown
 title: ''
-lang: 'en'
+lang: 'zh'
 photo: 'assets/img/photo.jpg'
 contact:
-  email: 'a@a.com'
-  phone: '123456789'
+  email: 'chengjunsun_2015@163.com'
+  phone: '13920013313'
   web: ''
   location: ''
-  github: 'NewFuture'
+  github: ''
 ---
 
 # markdown
@@ -16,9 +16,10 @@ the markdown resume template
 
 -----------
 
-## Basic
+## 简介
 
-### Main Title
+### 政治面貌：中共正式党员
+### 籍贯：山东
 #### Sub Title
 ###### summary introduction
 
