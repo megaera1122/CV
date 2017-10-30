@@ -25,9 +25,9 @@ main: #简历主要内容，
   - title: 政治面貌
     items: #itmems 可以小块的方式显示
     - 中共正式党员
-  - title: 政治面貌
+  - title:籍贯
     items: #itmems 可以小块的方式显示
-    - 中共正式党员
+    - 山东
     
 
 - type: education #类别为ID
@@ -47,6 +47,9 @@ main: #简历主要内容，
     items: #itmems 可以小块的方式显示
     - C++
     - Python
+  - title: 英语水平
+    items: #itmems 可以小块的方式显示
+    - 大学英语六级
     
   
 
@@ -79,6 +82,14 @@ others: #其他列表显示
   content: #选择需要的格式
   - title: "XOS：面向用户体验质量的高能效异构多核调度算法 "
     text: "计算机研究与发展(顶级中文期刊) 学生第二作者"
+
+- type: honor
+  name: "荣誉"
+  content:
+  - title: 国家励志奖学金（2012）
+  - title: 校奖学金（2013，2014，2016）
+  - title：校级优秀学生党员（2013，2014，2015）
+  - title：校级三好学生（2016）
   
 #- type: 
 #  name: '其他'
