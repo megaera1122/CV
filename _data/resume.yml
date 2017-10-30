@@ -19,15 +19,6 @@ contact: #联系方式连接等3~5行
 
 #main下面是主体内容，类别条数不限
 main: #简历主要内容，
-- type: introduction
-  name: "简介"
-  content:
-  - title:政治面貌
-    items: #itmems 可以小块的方式显示
-    - 中共正式党员
-  - title:籍贯
-    items: #itmems 可以小块的方式显示
-    - 山东
     
 
 - type: education #类别为ID
