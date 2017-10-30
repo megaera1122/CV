@@ -15,15 +15,7 @@ contact: #联系方式连接等3~5行
 - text: "13920013313"
   href: 'tel:1234567890'
   icon: 'icons/phone.svg'
-- text: "your-website.com"
-  href: 'http://your-website.com'
-  icon: 'icons/web.svg'
-- text: "GitHubID"
-  href: 'https://github.com/NewFuture'
-  icon: "icons/github.svg"
-  attr: 'target="_blank"' #新标签页打开
-  # - text: "地址"
-  #   icon: "icons/location.svg"
+
 
 #main下面是主体内容，类别条数不限
 main: #简历主要内容，
@@ -47,25 +39,6 @@ main: #简历主要内容，
     
   
 
-- type: experience
-  name: 经验
-  content:
-  - title: 职位
-    sub: 某某公司
-    duration: "xxxx年xx月 - yyyy年yy月"
-    tags:
-    - 标签
-    summary: 职务或者工作总结(自动折叠)
-    detail: 同时包含 summary和detail在Chrome，Safari(包括IOS)，Android和新版Firefox等会自动折叠，不支持折叠的浏览器和展开后表现一致
-    # open: open
-    #可以设置open默认展开
-  - title: Job Title
-    sub: Your 2nd, Inc.  
-    duration: Apr 2013 - Mar 2016
-    tags: 
-    - tagname
-    summary: Summary your job or work. (Collapse)
-    detail: Details can be collapsed in Chrome Safari, Firefox, Opera and so on. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 - type: projects
   name: Projects
@@ -86,11 +59,6 @@ main: #简历主要内容，
     duration: 2017年09月 - 至今
     detail: 融合自然语言处理与机器学习算法自动判断选择题正确性
     sub: 技术负责人
-  - title: Project Name
-    summary: Projects' introduction or summary
-    detail:
-      md: _data/demo.md
-    sub: Creator and maintainer.
    #可继续添加更多内容
 
 #others 其他简略内容(列表)
@@ -98,7 +66,6 @@ others: #其他列表显示
 - type: others #ID可以为空
   name: '论文'
   content: #选择需要的格式
-  - 单行文字
   - title: "XOS：面向用户体验质量的高能效异构多核调度算法 "
     text: "计算机研究与发展(顶级中文期刊) 学生第二作者"
   
