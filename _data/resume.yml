@@ -9,10 +9,10 @@ photo: "assets/img/photo.jpg" #照片可空，不显示
 
 #联系方式
 contact: #联系方式连接等3~5行
-- text: "youremail@example.com" #文本内容
+- text: "chengjunsun_2015@163.com" #文本内容
   href: 'mailto:youremail@example.com' #链接，无链接则空  
   icon: 'icons/email.svg' #图标 svg文件
-- text: "1234567890"
+- text: "13920013313"
   href: 'tel:1234567890'
   icon: 'icons/phone.svg'
 - text: "your-website.com"
@@ -30,25 +30,22 @@ main: #简历主要内容，
 - type: education #类别为ID
   name: 教育 #显示名称，空则使用type
   content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
-  - title: 大学名称
-    duration: "2011年x月 - 2015年"
-    sub: 地点或学历
-    detail: 专业或者简短说明
-  - title: Your University
-    duration: Aug 2007 - Jun 2011
-    sub: Ut enim ad minim veniam
-    detail: Master Bachelor of Computer Science & Technology.
+  - title: 南开大学
+    duration: "2011年9月 - 2015年6月"
+    detail: 信息安全与法学双学位试点班
+  - title: 南开大学
+    duration: "2015年9月 - 2018年6月"
+    detail: 计算机科学与技术
 
 - type: skills
   # name: "技能"
   content:
   - title: 编程语言
     items: #itmems 可以小块的方式显示
-    - 汉语
-    - 语言2
-    - 语言3
-  - title: Skill Group
-    summary: Consectetur, Adipiscing, Elit
+    - C++
+    - Python
+    
+  
 
 - type: experience
   name: 经验
@@ -73,10 +70,22 @@ main: #简历主要内容，
 - type: projects
   name: Projects
   content:
-  - title: 项目名称
-    duration: xxxx年xx月 - yyyy年yy月
-    detail: 项目和工作介绍，项目总结.
-    sub: 维护者
+  - title: 安全情报管理系统模块开发
+    duration: 2016年07月 - 2016年12月
+    detail: 实现互联网开源威胁情报数据的收集、管理
+    sub: 设计
+  - title: 超快激光虚拟实验室系统
+    duration: 2016年09月 - 2017年01月
+    detail: 基于VR实现的虚拟实验室
+    sub: 技术负责人
+  - title: 基于硬件辅助的进程级 IO 性能保障方法研究
+    duration: 2016年12月 - 至今
+    detail: 借助硬件辅助，提供虚拟化中进程级IO性能保障
+    sub: 设计和技术
+  - title: 基于问答系统的用户自建题库正确性问题研究
+    duration: 2017年09月 - 至今
+    detail: 融合自然语言处理与机器学习算法自动判断选择题正确性
+    sub: 技术负责人
   - title: Project Name
     summary: Projects' introduction or summary
     detail:
@@ -87,20 +96,12 @@ main: #简历主要内容，
 #others 其他简略内容(列表)
 others: #其他列表显示
 - type: others #ID可以为空
-  name: '其他'
+  name: '论文'
   content: #选择需要的格式
   - 单行文字
-  - title: "加粗:"
-    text: "列表项二"
-  - title: "兴趣:"
-    items: #单行列表
-    - 睡觉
-    - 吃饭
-    - coding
-  - title: 列表
-    list:
-    - 第一项
-    - 第二项
+  - title: "XOS：面向用户体验质量的高能效异构多核调度算法 "
+    text: "计算机研究与发展(顶级中文期刊) 学生第二作者"
+  
 #- type: 
 #  name: '其他'
 #  content: #选择需要的格式
